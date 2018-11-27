@@ -1,0 +1,28 @@
+.site_footer {
+  padding: 150px 0px;
+  background: url(../img/footer-bg.png);
+  background-size: 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+  .footer_heading {
+    font: 700 48px $priFont;
+    color: #000;
+    margin-bottom: 80px;
+    position: relative;
+
+    span {
+      color: $priColor;
+    }
+
+    &:after {
+      content: 'Contact';
+      font: 700 200px $priFont;
+      color: #000;
+      opacity: .03;
+      position: absolute;
+      top: -100px;
+      left: -100px;
+    }
+  }
+}

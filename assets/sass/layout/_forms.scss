@@ -1,0 +1,35 @@
+.site_form {
+  input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    background: #f2f2f2;
+    padding-left: 20px;
+    margin-bottom: 15px;
+
+    &[type=submit] {
+      width: 200px;
+      padding: 0;
+      margin-top: 10px;
+      background: transparent;
+      border: 2px solid $priColor;
+      color: $priColor;
+      font: 700 16px $priFont;
+      text-transform: uppercase;
+      cursor: pointer;
+
+      &:hover {
+        background: $priColor;
+        color: #fff;
+      }
+    }
+  }
+
+  textarea {
+    background: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+    height: 140px;
+    border: none;
+  }
+}

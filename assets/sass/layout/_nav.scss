@@ -1,0 +1,23 @@
+.site_nav {
+  padding: 18px 50px;
+  background: $priColor;
+  color: #fff;
+  &_group {
+    .group_item {
+      display: inline-block;
+
+      .item_link {
+        font: 500 16px/8px $priFont;
+        text-transform: uppercase;
+      }
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  &_lang {
+    text-align: right;
+  }
+}
